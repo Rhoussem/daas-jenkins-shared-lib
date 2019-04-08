@@ -36,22 +36,26 @@ pipeline {
                     }
                 }
         stage("Unit & Integration tests ")
+                {
 //                when {
 //                    expression { return config.ciConfig.codeTestStage.enable }
 //                }
-                steps {
-                    script {
-                        codeTest(config)
+                    steps {
+                        script {
+                            codeTest(config)
+                        }
                     }
                 }
         stage("Dependencies check")
+                {
 //            when {
 //                expression{return config.ciConfig.codeSecurityStage.enable}
 //            }
-            steps {
-                script {
-                    dependencyCheck(config)
+                    steps {
+                        script {
+                            dependencyCheck(config)
+                        }
+                    }
                 }
-            }
     }
 }
