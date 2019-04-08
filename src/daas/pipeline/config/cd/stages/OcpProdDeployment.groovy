@@ -1,4 +1,4 @@
-package daas.iamp.pipeline.config.cd.stages
+package daas.pipeline.config.cd.stages
 
 import daas.pipeline.config.objects.OcpDeployment
 
