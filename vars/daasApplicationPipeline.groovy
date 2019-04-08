@@ -4,7 +4,7 @@ def call(Closure body) {
     PipelineConfig config
 
     pipeline {
-        agent { node { label 'maven' } }
+        agent { node { label 'ubuntu-1604' } }
         stages {
             stage("Init pipeline")
                     {
