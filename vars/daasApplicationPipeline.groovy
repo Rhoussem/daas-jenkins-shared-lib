@@ -8,15 +8,21 @@ pipeline {
     stages {
         stage("Init pipeline")
                 {
-                    script {
-                        initPipeline(config)
+                    steps {
+                        script {
+                            initPipeline(config)
+                        }
                     }
+
                 }
         stage("Init config")
                 {
-                    script {
-                        initConfig(config)
+                    steps {
+                        script {
+                            initConfig(config)
+                        }
                     }
+
                 }
         stage("Build")
                 {
