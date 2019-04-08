@@ -6,7 +6,7 @@ def call(PipelineConfig config) {
     println("Init Config")
 
     // Get external config repo
-    gitCheckout repoURL: config.externalConfig.repoUrl, branch: config.externalConfig.branch, directory: config.externalConfig.localDir, credentialsId: config.externalConfig.credentials
+    gitCheckout repoURL: config.ExternalConfigRepo.repoUrl, branch: config.ExternalConfigRepo.branch, directory: config.ExternalConfigRepo.localDir, credentialsId: config.ExternalConfigRepo.credentials
 
     // Init build engines
     initBuildEngine(config)
