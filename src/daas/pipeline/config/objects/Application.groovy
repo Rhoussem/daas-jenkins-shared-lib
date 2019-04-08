@@ -1,6 +1,6 @@
 // src/ca/bc/gov/iamp/pipeline
 
-package ca.bc.gov.iamp.pipeline.config.objects
+package daas.pipeline.config.objects
 
 class Application implements Serializable {
 	

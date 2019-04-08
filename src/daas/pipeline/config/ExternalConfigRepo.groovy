@@ -1,12 +1,12 @@
-// src/ca/bc/gov/iamp/pipeline
 
-package ca.bc.gov.iamp.pipeline.config
+
+package daas.pipeline.config
 
 class ExternalConfigRepo implements Serializable {
 
-	String repoUrl = "" //application github URL
-	String branch = "master"
-	String credentials = "jenkins_credentials" //we should impliment the jenkins account for github
+	String repoUrl = "https://github.com/opticca-consulting/daas-demo-application.git" //application github URL
+	String branch = "develop"
+	String credentials = "id1" //we should impliment the jenkins account for github
 	String localDir = "external-config"
 
 	String latestCommit = ""

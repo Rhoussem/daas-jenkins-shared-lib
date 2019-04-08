@@ -1,13 +1,13 @@
-package ca.bc.gov.iamp.pipeline.config.cd.stages
+package daas.pipeline.config.cd.stages
 
-import ca.bc.gov.iamp.pipeline.config.objects.Stage
+import daas.pipeline.config.objects.Stage
 
 class ContainerBuildStage extends Stage implements Serializable {
 
     boolean localArtifact = true
-    String cloudProvider = "ocp"
+    String cloudProvider = "gcp"
 //    String baseImage = "registry.access.redhat.com/jboss-fuse-6/fis-java-openshift:2.0"
-    String baseImage = "registry.access.redhat.com/redhat-openjdk-18/openjdk18-openshift:1.6"
+//    String baseImage = "registry.access.redhat.com/redhat-openjdk-18/openjdk18-openshift:1.6"
 
     ContainerBuildStage() {
 

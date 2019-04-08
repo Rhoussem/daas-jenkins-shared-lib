@@ -1,4 +1,4 @@
-package ca.bc.gov.iamp.pipeline.config.objects
+package daas.pipeline.config.objects
 
 abstract class Stage implements Serializable{
 

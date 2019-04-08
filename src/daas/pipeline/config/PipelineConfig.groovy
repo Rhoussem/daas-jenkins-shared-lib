@@ -1,10 +1,10 @@
-// src/ca/bc/gov/iamp/pipeline
 
-package ca.bc.gov.iamp.pipeline.config
 
-import ca.bc.gov.iamp.pipeline.config.cd.CdConfig
-import ca.bc.gov.iamp.pipeline.config.ci.CiConfig
-import ca.bc.gov.iamp.pipeline.config.objects.Application
+package daas.pipeline.config
+
+import daas.pipeline.config.cd.CdConfig
+import daas.pipeline.config.ci.CiConfig
+import daas.pipeline.config.objects.Application
 
 class PipelineConfig implements Serializable {
 

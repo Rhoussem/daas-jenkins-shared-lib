@@ -1,6 +1,6 @@
-package ca.bc.gov.iamp.pipeline.config.ci.stages
+package daas.pipeline.config.ci.stages
 
-import ca.bc.gov.iamp.pipeline.config.objects.Stage
+import daas.pipeline.config.objects.Stage
 
 class CodeSecurityStage extends Stage implements Serializable {
 

@@ -1,7 +1,7 @@
-package ca.bc.gov.iamp.pipeline.config.cd.stages
+package daas.pipeline.config.cd.stages
 
-import ca.bc.gov.iamp.pipeline.config.objects.OcpDeployment
-import ca.bc.gov.iamp.pipeline.config.objects.Template
+import daas.pipeline.config.objects.OcpDeployment
+
 
 class OcpDevDeployment extends OcpDeployment implements Serializable {
 

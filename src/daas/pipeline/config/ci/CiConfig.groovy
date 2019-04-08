@@ -1,12 +1,12 @@
 // src/ca/bc/gov/iamp/pipeline
 
-package ca.bc.gov.iamp.pipeline.config.ci
+package daas.pipeline.config.ci
 
-import ca.bc.gov.iamp.pipeline.config.ci.stages.CodeArchiveStage
-import ca.bc.gov.iamp.pipeline.config.ci.stages.CodeBuildStage
-import ca.bc.gov.iamp.pipeline.config.ci.stages.CodeQualityStage
-import ca.bc.gov.iamp.pipeline.config.ci.stages.CodeSecurityStage
-import ca.bc.gov.iamp.pipeline.config.ci.stages.CodeTestStage
+import daas.pipeline.config.ci.stages.CodeArchiveStage
+import daas.pipeline.config.ci.stages.CodeBuildStage
+import daas.pipeline.config.ci.stages.CodeQualityStage
+import daas.pipeline.config.ci.stages.CodeSecurityStage
+import daas.pipeline.config.ci.stages.CodeTestStage
 
 
 

@@ -1,11 +1,10 @@
-// src/ca/bc/gov/iamp/pipeline
 
-package ca.bc.gov.iamp.pipeline.config.cd
+package daas.pipeline.config.cd
 
-import ca.bc.gov.iamp.pipeline.config.cd.stages.ContainerBuildStage
-import ca.bc.gov.iamp.pipeline.config.cd.stages.OcpDevDeployment
-import ca.bc.gov.iamp.pipeline.config.cd.stages.OcpProdDeployment
-import ca.bc.gov.iamp.pipeline.config.cd.stages.OcpTestDeployment
+import daas.pipeline.config.cd.stages.ContainerBuildStage
+import daas.pipeline.config.cd.stages.OcpDevDeployment
+import daas.pipeline.config.cd.stages.OcpProdDeployment
+import daas.pipeline.config.cd.stages.OcpTestDeployment
 
 
 class CdConfig implements Serializable {

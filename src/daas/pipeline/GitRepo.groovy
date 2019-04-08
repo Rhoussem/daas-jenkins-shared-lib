@@ -1,6 +1,6 @@
-// src/ca/bc/gov/iamp/pipeline
 
-package ca.bc.gov.iamp.pipeline
+
+package daas.pipeline
 
 class GitRepo implements Serializable {
 	
